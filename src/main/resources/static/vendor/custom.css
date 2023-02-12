@@ -10,18 +10,54 @@
     color: #E85B4D;
 }
 
-.home-body {
-        background-image:url("/vendor/zorua only.png");
-        background-position: right bottom;
-        background-repeat:no-repeat;background-attachment:fixed;
-        background-size : 33vw ;
+.btn-custom2 {
+    background-color: #1C1917;
+    border: none;
+    color: #E85B4D;
+    font-size: 1rem;
+    transition: 0.3s;
 }
 
+.btn-custom2:hover {
+    background-color: transparent ;
+    color: #1C1917;
+}
+
+.home-body {
+        background-image: url("/vendor/zorua only.png");
+        background-position: right bottom;
+        background-repeat:no-repeat;background-attachment:fixed;
+        background-size : 37vw ;
+}
+
+.home-body2 {
+    background-image: url("/vendor/oricorio.png");
+    background-position: right bottom;
+    background-repeat:no-repeat;background-attachment:fixed;
+    background-size : 37vw ;
+}
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   color: #E85B4D;
-  font-size: 0.25 rem;
+  font-size: max(12px,1.5vw);
   text-align: left;
+}
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #1C1917;
+    font-size: max(12px,1.5vw);
+    text-align: left;
+}
+
+.footer2right {
+    position: fixed;
+    right:0;
+    bottom: 0;
+    color: #1C1917;
+    font-size: max(12px,1.5vw);
 }
