@@ -1,4 +1,4 @@
-package com.ppptcg.POKEMONTCG;
+package com.ppptcg.POKEMONTCG.nonSpringclasses;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -54,7 +54,7 @@ public class ptcg_io_interaction {
         return list.toString();
     }
 
-    String gotta_get_all_sets() throws UnirestException, JsonProcessingException {
+    public String gotta_get_all_sets() throws UnirestException, JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         JSONObject PKMNSETS = Unirest.get("https://api.pokemontcg.io/v2/sets")
                 .queryString("x-Api-Key",api)

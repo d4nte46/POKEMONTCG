@@ -1,4 +1,4 @@
-package com.ppptcg.POKEMONTCG;
+package com.ppptcg.POKEMONTCG.Controller;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
@@ -22,10 +22,5 @@ public class HomeController {
     public String cardnew(){
         return "cardnew";
     }
-
-//    @PostMapping
-//    public String redirectCard(){
-//        return "redirect:addcard";
-//    }
 
 }
