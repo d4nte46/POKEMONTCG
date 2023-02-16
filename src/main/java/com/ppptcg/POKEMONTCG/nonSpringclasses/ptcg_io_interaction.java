@@ -68,13 +68,19 @@ public class ptcg_io_interaction {
         List<JsonNode> idlist = co.findValues("id");
 
         HashMap<JsonNode,JsonNode> nameid = new HashMap<>();
+        int length = 0;
+        String id = "";
 
         for (int i = 0 ; i<idlist.size() ; i++ ){
+            id = String.valueOf(idlist.get(i));
+            if(id.length()>length){
+                length = id.length();
+            }
             nameid.put(namelist.get(i), idlist.get(i));
         }
 
 
-        return nameid.toString();
+        return nameid.toString()+"\n"+length;
     }
 
 }
