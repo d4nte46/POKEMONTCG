@@ -1,0 +1,46 @@
+.btn-custom {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #E85B4D;
+    border: none;
+    color: #1C1917;
+    font-size: 100% ;
+    padding: 3px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+.btn-custom:hover {
+    background-color: transparent;
+    color: #E85B4D;
+    border: 1px solid #E85B4D;
+}
+
+.home-body {
+    font-family: 'Courier New', monospace;
+    background-color: #1C1917 ;
+    text-align: center;
+    background-image: url("/vendor/zorua only.png");
+    background-position: right bottom;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size : 37vw ;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #E85B4D;
+    font-size: max(12px,1.5vw);
+    text-align: left;
+}
+
+.header-custom {
+    background-color: transparent;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #E85B4D;
+    font-size: 370%;
+}

@@ -1,41 +1,31 @@
 <!DOCTYPE html>
+<html>
 <html xmlns xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+    <link rel="stylesheet" th:href="@{/vendor/custom/custom-home.css}">
     <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
-    <link rel="stylesheet" th:href="@{/vendor/custom.css}">
-    <style> body {background-color:#1C1917;}
-    h1
-    {text-align: center;
-     color : #E85B4D  }
-    h2
-    {text-align: center;
-     color : #E85B4D }
-    </style>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body class = "home-body">
-    <div>
-        <h1 class = "pt-5">Welcome to Pokemon TCG DRMS </h1>
-        <h2>GUI Version </h2>
-
-        <div class="container text-center" style ="text-align: center;" >
-            <div class="btn-group my-1 " role="group">
-                <a type="button" class="btn btn-custom mx-1" th:href="@{/addcard}">Add A Card</a>
-                <a type="button" class="btn btn-custom mx-1" th:href="@{/addPackage}">Add A Package</a>
-            </div>
+    <div class = "header-custom">
+        Welcome to Pokemon TCG DRMS
+        <br>
+        GUI Version
+    </div>
+        <div class="btn-group my-1 " role="group">
+            <a type="button"  class="btn-custom mx-1" th:href="@{/addcard}">Add A Card</a>
+            <a type="button"  class="btn-custom mx-1" th:href="@{/addPackage}">Add A Package</a>
         </div>
-        <div class="container text-center" style ="text-align: center;">
-            <div class="btn-group my-1 " role="group">
-                <button type="button" class="btn btn-custom mx-1">Sell A Card</button>
-            </div>
+    <div>
+        <div class="btn-group my-1 " role="group">
+            <button type="button" class="btn-custom mx-1">Sell A Card</button>
         </div>
     </div>
     <div class = "footer">
-    Pokemon (c) Nintendo | Wallpaper by MapelRoss
+        Designed by zoohire46
     </div>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!--Pokemon (c) Nintendo | Wallpaper by MapelRoss-->
