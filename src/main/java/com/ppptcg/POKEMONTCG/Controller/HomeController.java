@@ -3,6 +3,7 @@ package com.ppptcg.POKEMONTCG.Controller;
 import com.ppptcg.POKEMONTCG.DAO.PackageDao;
 import com.ppptcg.POKEMONTCG.model.Rand;
 import com.ppptcg.POKEMONTCG.model.TableNameIdEntity;
+import com.ppptcg.POKEMONTCG.model.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
@@ -18,18 +19,19 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    @Autowired
-    PackageDao PackageRep;
 
 
     @GetMapping("/")
-    public String home(){
+    public String home(Model model) {
+        UserEntity User = new UserEntity();
+        model.addAttribute("User",User);
         return "home";
     }
 
-    @GetMapping("/addPackage")
-    public String addPackage(){
-        return "packagenew";
+    @PostMapping("/signin")
+    public String setUser(@ModelAttribute("User") UserEntity User) {
+        System.out.println(User.getEmail() +"\n" + User.getPassword());
+        return "redirect:/";
     }
 
 }

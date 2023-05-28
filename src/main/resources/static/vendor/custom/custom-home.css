@@ -1,40 +1,151 @@
-.btn-custom {
-    display: inline-block;
-    text-align: center;
+:root{
+    --my-red: #E85B4D;
+    --my-black: #1C1917;
+    --my-grey: #332D2A;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.forgor{
+    bottom: -35px;
+    left: 80px;
+    position: absolute;
+    font-size: small;
     text-decoration: none;
-    background-color: #E85B4D;
-    border: none;
-    color: #1C1917;
-    font-size: 100% ;
-    padding: 3px;
-    transition: 0.3s;
-    border: 1px solid transparent;
-    border-radius: 3px;
-
-}
-.btn-custom:hover {
-    background-color: transparent;
-    color: #E85B4D;
-    border: 1px solid #E85B4D;
+    color: var(--my-black);
+    cursor: pointer;
 }
 
-.home-body {
+.forgor:hover{
+    text-decoration: underline;
+}
+
+.home-body{
     font-family: 'Courier New', monospace;
-    background-color: #1C1917 ;
+    background-color: var(--my-black);
     text-align: center;
-    background-image: url("/vendor/zorua only.png");
+    background-image: url("/vendor/claydol.png") ;
     background-position: right bottom;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-repeat:no-repeat;background-attachment:fixed;
     background-size : 37vw ;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    color: #E85B4D;
-    font-size: max(12px,1.5vw);
-    text-align: left;
+
+.backpage{
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form_box{
+    margin-top: 0;
+    width: 380px;
+    height: 480px;
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    margin: 7% auto;
+    margin-top: 13%;
+    background: var(--my-red);
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+.innout{
+    margin: 35px auto;
+    position: relative;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--my-grey);
+    transition: 0.3s;
+}
+toggle-btn:hover{
+    color: var(--my-red);
+}
+
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--my-black);
+    outline: none;
+    background:transparent;
+}
+
+.btn-custom2-bigmid {
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin: auto;
+    background-color: var(--my-black);
+    width: 100%;
+    height: 40px;
+    border: 3px transparent;
+    color: var(--my-red);
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-custom2-bigmid:hover {
+    background-color: transparent ;
+    color: var(--my-black);
+    border: 3px var(--my-black);
+    text-decoration: underline;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    left: 20px;
+    margin-top: 30px;
+}
+#signin{
+    left: 50px;
+}
+
+#signup{
+    left: 450px;
+}
+
+#btn{
+    top : 40px;
+    left : 80px;
+    position: absolute;
+    width: 69px;
+    height: 6.9%;
+    background: #332D2A;
+    border-radius: 25px;
+    transition: 0.3s ;
 }
 
 .header-custom {
@@ -42,5 +153,5 @@
     font-weight: bold;
     padding-top: 15px;
     color: #E85B4D;
-    font-size: 370%;
+    font-size: 270%;
 }

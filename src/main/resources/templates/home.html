@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html>
-<html xmlns xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<html xmlns: xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" th:href="@{/vendor/custom/custom-home.css}">
+    <meta charset="UTF-8">
+    <title>Login</title>
     <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/vendor/custom.css}">
+    <link rel="stylesheet"
+          th:href="@{/vendor/custom/custom-home.css}">
 </head>
 <body class = "home-body">
-    <div class = "header-custom">
-        Welcome to Pokemon TCG DRMS
-        <br>
-        GUI Version
-    </div>
-        <div class="btn-group my-1 " role="group">
-            <a type="button"  class="btn-custom mx-1" th:href="@{/addcard}">Add A Card</a>
-            <a type="button"  class="btn-custom mx-1" th:href="@{/addPackage}">Add A Package</a>
+<div class = "header-custom">
+    Welcome to Pokemon TCG DRMS
+    <br>
+    GUI Version
+</div>
+<div class = "backpage">
+    <div class = "form_box">
+        <div class = "innout">
+            <div id = "btn"></div>
+            <button type ="button" class="toggle-btn" onclick="signin()">Sign In</button>
+            <button type ="button" class="toggle-btn" onclick="signup()">Sign Up</button>
         </div>
-    <div>
-        <div class="btn-group my-1 " role="group">
-            <button type="button" class="btn-custom mx-1">Sell A Card</button>
-        </div>
+        <form action="#" class="input-group" id="signin" method="POST" th:action="@{/signin}" th:object="${User}">
+            <input type="text" th:field="*{email}" class="input-field" placeholder="User email" required>
+            <input type="password" th:field="*{password}" class="input-field" placeholder="Enter Password" required >
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="btn-custom2-bigmid">Login</button>
+            <a class="forgor"> Forgot Password? </a>
+        </form>
+        <form id="signup" class = "input-group">
+            <input type="email" class="input-field" placeholder="Email ID" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="text" class="input-field" placeholder="Re-Enter Password" required>
+            <br>
+            <button type="submit" class="btn-custom2-bigmid">Login</button>
+        </form>
     </div>
-    <div class = "footer">
-        Designed by zoohire46
-    </div>
+</div>
+<script>
+    var x = document.getElementById("signin");
+    var y = document.getElementById("signup");
+    var z = document.getElementById("btn");
+
+    function signup(){`1`
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "215px";
+    }
+
+    function signin(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "80px";
+    }
+</script>
 </body>
 </html>
-
-<!--Pokemon (c) Nintendo | Wallpaper by MapelRoss-->

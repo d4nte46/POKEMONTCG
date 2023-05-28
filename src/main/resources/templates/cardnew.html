@@ -23,7 +23,7 @@
         <div class = "section">
                 <form action = "#" th:action="@{/addcard}" method="POST" th:object="${rd}" class = "form_box">
                     <div class="input">
-                        <input th:field="*{ID}" class="input-field" type=number required >
+                        <input class="input-field" required th:field="*{ID}" type=number>
                         <label class = "input-label"> ID </label>
                     </div>
                     <div class="input_drop">
