@@ -7,6 +7,18 @@
     <link rel="stylesheet" th:href="@{/vendor/custom.css}">
     <link rel="stylesheet"
           th:href="@{/vendor/custom/custom-home.css}">
+    <script>
+        window.addEventListener("load",function(){
+                var email = document.getElementById("email");
+                email.addEventListener("keyup",(event)=> {
+                    email.value = email.value.replaceAll(" ","");
+                    if (!String(email.value).toLowerCase().match(
+                        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/))
+                        console.log(`Email is not valid!`);
+                } );
+        });
+    </script>
+
 </head>
 <body class = "home-body">
 <div class = "header-custom">
@@ -22,11 +34,12 @@
             <button type ="button" class="toggle-btn" onclick="signup()">Sign Up</button>
         </div>
         <form action="#" class="input-group" id="signin" method="POST" th:action="@{/signin}" th:object="${User}">
-            <input type="text" th:field="*{email}" class="input-field" placeholder="User email" required>
+            <input class="input-field" id="email" placeholder="User email" required
+                   th:field="*{email}" type="text">
             <input type="password" th:field="*{password}" class="input-field" placeholder="Enter Password" required >
             <input type="checkbox" class="check-box"><span>Remember Password</span>
             <button type="submit" class="btn-custom2-bigmid">Login</button>
-            <a class="forgor"> Forgot Password? </a>
+            <a class="forgor" th:href="@{/forgotpassword}"> Forgot Password? </a>
         </form>
         <form id="signup" class = "input-group">
             <input type="email" class="input-field" placeholder="Email ID" required>
@@ -42,7 +55,7 @@
     var y = document.getElementById("signup");
     var z = document.getElementById("btn");
 
-    function signup(){`1`
+    function signup(){
         x.style.left = "-400px";
         y.style.left = "50px";
         z.style.left = "215px";

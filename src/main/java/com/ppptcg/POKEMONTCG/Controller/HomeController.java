@@ -34,4 +34,11 @@ public class HomeController {
         return "redirect:/";
     }
 
+    /*
+    * FOR REMEMBERING PASSWORD THING REMEMBER SESSION INSTEAD OF PASSWORD
+    *
+    *
+    *
+    * */
+
 }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns: xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Forgor</title>
+  <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
+  <link rel="stylesheet" th:href="@{/vendor/custom.css}">
+  <link rel="stylesheet"
+        th:href="@{/vendor/custom/custom-forgor.css}">
+</head>
+<div class = "header-custom">
+  Forgot Password?
+</div>
+<body class = "home-body">
+  <div class = "form_box">
+    <div class = "header_in_form"> Remembering passwords can be hard that's why we are here for you! </div>
+    <form action="#" class = "input-group" method="POST" th:action="@{/forgotpassword}" th:object="${email}">
+      <input class="input-field" id="email" placeholder="Account Email" required
+             th:field="*{email}" type="text">
+      <button type="submit" class="btn-custom2-bigmid">Reset Password</button>
+    </form>
+  <div class = "footer_in_form"> You should have received an email containing instructions to change password </div>
+  </div>
+</body>
+</html>

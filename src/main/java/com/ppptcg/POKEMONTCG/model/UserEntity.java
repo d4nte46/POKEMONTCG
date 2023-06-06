@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
+import com.ppptcg.POKEMONTCG.nonSpringclasses.BCRYPTgenerator;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -29,7 +30,7 @@ public class UserEntity implements Serializable {
     }
 
     public String getPassword() {
-        return password;
+       return password;
     }
 
     public boolean isVerified() {
@@ -45,7 +46,8 @@ public class UserEntity implements Serializable {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        BCRYPTgenerator pp = new BCRYPTgenerator();
+        this.password = pp.generatepassword(password);
     }
 
 }
