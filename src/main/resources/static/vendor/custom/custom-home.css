@@ -78,7 +78,7 @@ toggle-btn:hover{
 }
 
 .input-group{
-    top: 150px;
+    top: 120px;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -97,6 +97,11 @@ toggle-btn:hover{
     background:transparent;
 }
 
+.email-notgood{
+    position: absolute;
+    top: 65px;
+    display:none;
+}
 .btn-custom2-bigmid {
     outline: none;
     cursor: pointer;
@@ -112,11 +117,16 @@ toggle-btn:hover{
     transition: 0.3s;
 }
 
-.btn-custom2-bigmid:hover {
+.btn-custom2-bigmid:hover:enabled {
     background-color: transparent ;
     color: var(--my-black);
     border: 3px var(--my-black);
     text-decoration: underline;
+}
+
+.btn-custom2-bigmid:disabled {
+    background-color: transparent ;
+    color: var(--my-black);
 }
 
 .check-box{
@@ -154,4 +164,10 @@ span{
     padding-top: 15px;
     color: #E85B4D;
     font-size: 270%;
+}
+
+.wrong-password {
+    position: absolute;
+    top:235px;
+    display: none;
 }

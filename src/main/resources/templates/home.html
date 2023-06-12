@@ -10,12 +10,49 @@
     <script>
         window.addEventListener("load",function(){
                 var email = document.getElementById("email");
+                var valid = document.getElementById("notvalid")
+                var mismatch = document.getElementById("mismatch")
+                var login = document.getElementById("login")
+                var logup = document.getElementById("logup")
+                var enteredpassword = document.getElementById("enteredpassword")
+                var checkedpassword = document.getElementById("checkedpassword")
+
+
                 email.addEventListener("keyup",(event)=> {
-                    email.value = email.value.replaceAll(" ","");
+                    email.value = email.value.replaceAll(" ", "");
                     if (!String(email.value).toLowerCase().match(
-                        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/))
-                        console.log(`Email is not valid!`);
-                } );
+                        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+                        valid.style.display = "inherit";
+                        login.disabled = true;}
+                    else{
+                        valid.style.display = "none";
+                        login.disabled = false;
+                    }
+                }
+
+                );
+                checkedpassword.addEventListener("keyup",(event)=> {
+                    if (enteredpassword.value != checkedpassword.value){
+                        mismatch.style.display = "inherit";
+                        logup.disabled = true;}
+                    else{
+                        mismatch.style.display = "none";
+                        logup.disabled = false;
+                    }
+                });
+
+                enteredpassword.addEventListener("keyup",(event)=> {
+                    if (enteredpassword.value != checkedpassword.value){
+                        mismatch.style.display = "inherit";
+                        logup.disabled = true;}
+                    else{
+                        mismatch.style.display = "none";
+                        logup.disabled = false;
+                    }
+                }
+
+                );
+
         });
     </script>
 
@@ -35,18 +72,19 @@
         </div>
         <form action="#" class="input-group" id="signin" method="POST" th:action="@{/signin}" th:object="${User}">
             <input class="input-field" id="email" placeholder="User email" required
-                   th:field="*{email}" type="text">
-            <input type="password" th:field="*{password}" class="input-field" placeholder="Enter Password" required >
+                   th:field="*{email}" type="text" style="margin-bottom: 25px">
+            <div class = "email-notgood" id="notvalid">The email is not valid!</div>
+            <input type="password" th:field="*{password}" class="input-field" placeholder="Enter Password" style="" required >
             <input type="checkbox" class="check-box"><span>Remember Password</span>
-            <button type="submit" class="btn-custom2-bigmid">Login</button>
+            <button type="submit" class="btn-custom2-bigmid" id="login">Login</button>
             <a class="forgor" th:href="@{/forgotpassword}"> Forgot Password? </a>
         </form>
-        <form id="signup" class = "input-group">
-            <input type="email" class="input-field" placeholder="Email ID" required>
-            <input type="text" class="input-field" placeholder="Enter Password" required>
-            <input type="text" class="input-field" placeholder="Re-Enter Password" required>
-            <br>
-            <button type="submit" class="btn-custom2-bigmid">Login</button>
+        <form id="signup" class = "input-group" th:action="@{/signup}" method="POST">
+            <input type="email" class="input-field" placeholder="Email ID" name = "emailsignup" id = "emailsignup"required>
+            <input type="text" class="input-field" placeholder="Enter Password" name ="enteredpassword" id="enteredpassword" required>
+            <input type="text" class="input-field" placeholder="Re-Enter Password" name ="checkedpassword" id ="checkedpassword"required>
+            <button type="submit" class="btn-custom2-bigmid" id ="logup">Login</button>
+            <div class = "wrong-password" id="mismatch"> The passwords do not match! </div>
         </form>
     </div>
 </div>

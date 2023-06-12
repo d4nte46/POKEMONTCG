@@ -6,14 +6,15 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 import com.ppptcg.POKEMONTCG.nonSpringclasses.BCRYPTgenerator;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @Entity
-
+@NoArgsConstructor
 @Table(name="User",schema="UserAccess")
 public class UserEntity implements Serializable {
     private String email;
@@ -23,8 +24,13 @@ public class UserEntity implements Serializable {
     private boolean verified;
 
     @Id
-    private boolean ID;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int ID;
 
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "ID"),
+                inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
+    private List<RolesEntity> roles = new ArrayList<>();
     public String getEmail() {
         return email;
     }
@@ -37,7 +43,7 @@ public class UserEntity implements Serializable {
         return verified;
     }
 
-    public boolean isID() {
+    public int getID() {
         return ID;
     }
 

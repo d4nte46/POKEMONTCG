@@ -9,9 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +32,18 @@ public class HomeController {
         return "redirect:/";
     }
 
+
+    @PostMapping("/signup")
+    public String signup(
+            @RequestParam(value = "emailsignup")
+            String email,
+            @RequestParam(value = "enteredpassword")
+            String password,
+            @RequestParam(value = "checkedpassword")
+            String verify){
+
+        return "redirect:/";
+    }
     /*
     * FOR REMEMBERING PASSWORD THING REMEMBER SESSION INSTEAD OF PASSWORD
     *
