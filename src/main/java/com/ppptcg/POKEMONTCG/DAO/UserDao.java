@@ -1,10 +1,9 @@
 package com.ppptcg.POKEMONTCG.DAO;
 
 import com.ppptcg.POKEMONTCG.model.UserEntity;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
 
-import java.util.List;
-
-public interface UserDao extends JpaRepository<UserEntity,Integer> {
-        List<UserEntity> findAll();
+public interface UserDao extends CrudRepository<UserEntity,String> {
 }

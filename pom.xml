@@ -76,8 +76,13 @@
 			<artifactId>spring-security-crypto</artifactId>
 			<version>5.7.6</version>
 		</dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.1</version>
+        </dependency>
 
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<plugins>

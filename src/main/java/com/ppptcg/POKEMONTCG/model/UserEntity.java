@@ -1,22 +1,18 @@
 package com.ppptcg.POKEMONTCG.model;
 
-import lombok.AllArgsConstructor;
+import com.ppptcg.POKEMONTCG.nonSpringclasses.RandomString;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import com.ppptcg.POKEMONTCG.nonSpringclasses.BCRYPTgenerator;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @Entity
-@NoArgsConstructor
-@Table(name="User",schema="UserAccess")
+@Table(name="consumer",schema = "user_access")
 public class UserEntity implements Serializable {
+
     private String email;
 
     private String password;
@@ -24,13 +20,10 @@ public class UserEntity implements Serializable {
     private boolean verified;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int ID;
+    @Column(name = "id")
+    private String ID;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "ID"),
-                inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
-    private List<RolesEntity> roles = new ArrayList<>();
+    private String verification_code;
     public String getEmail() {
         return email;
     }
@@ -43,7 +36,11 @@ public class UserEntity implements Serializable {
         return verified;
     }
 
-    public int getID() {
+    public void setID(){
+        RandomString randomString = new RandomString(13);
+        this.ID = randomString.generate();
+    }
+    public String getID() {
         return ID;
     }
 
@@ -56,4 +53,8 @@ public class UserEntity implements Serializable {
         this.password = pp.generatepassword(password);
     }
 
+    public void setvericode(){
+        RandomString randomString = new RandomString(13);
+        this.verification_code = randomString.generate();
+    }
 }
