@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Entity
 @Table(name="consumer",schema = "user_access")
 public class UserEntity implements Serializable {
-
+    @Column(unique = true)
     private String email;
 
     private String password;

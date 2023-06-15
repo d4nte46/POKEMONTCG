@@ -166,8 +166,14 @@ span{
     font-size: 270%;
 }
 
-.wrong-password {
+.password-mismatch {
     position: absolute;
     top:235px;
     display: none;
+}
+
+.wrong-password {
+    position: absolute;
+    bottom: -96px;
+    display: inherit;
 }

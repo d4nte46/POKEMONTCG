@@ -1,7 +1,9 @@
 package com.ppptcg.POKEMONTCG.Controller;
 
-import com.ppptcg.POKEMONTCG.DAO.UserDao;
+import com.ppptcg.POKEMONTCG.DAO.UserEDao;
+import com.ppptcg.POKEMONTCG.DAO.UserIDDao;
 import com.ppptcg.POKEMONTCG.model.UserEntity;
+import com.ppptcg.POKEMONTCG.nonSpringclasses.BCRYPTgenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,27 +11,54 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import java.sql.SQLException;
+import java.util.Optional;
 
 
 @Controller
 public class HomeController {
 
     @Autowired
-    UserDao UserDao ;
+    UserIDDao UserDao ;
+
+    @Autowired
+    UserEDao UserEDao;
+
 
     @GetMapping("/")
     public String home(Model model) {
         UserEntity User = new UserEntity();
+        String message = (String) model.getAttribute("message");
         model.addAttribute("User",User);
+        model.addAttribute("message", message);
         return "home";
     }
 
     @PostMapping("/signin")
-    public String setUser(@ModelAttribute("User") UserEntity User) {
-        System.out.println(User.getEmail() +"\n" + User.getPassword());
-        return "redirect:/";
+    public String setUser(@RequestParam("loginemail")  String email, @RequestParam("password") String password,Model model, RedirectAttributes red) {
+//        System.out.println(User.getEmail() +"\n" + User.getPassword());
+//        return "redirect:/";
+        UserEntity loginuser = UserEDao.findByEmail(email).orElse(null);
+        if (loginuser == null){
+            String message = "User with this email does not exist";
+            red.addFlashAttribute("message",message);
+            return "redirect:/";
+        }else {
+            BCRYPTgenerator BG = new BCRYPTgenerator();
+            if(!BG.matchpassword(password,loginuser.getPassword())){
+                String message = "The Password Does not match!";
+                red.addFlashAttribute("message",message);
+                return "redirect:/";
+            }else{
+                if(loginuser.isVerified()){
+                    return "redirect:/";
+                }
+                else{
+                    return "/verify";
+                }
+            }
+        }
     }
 
 
