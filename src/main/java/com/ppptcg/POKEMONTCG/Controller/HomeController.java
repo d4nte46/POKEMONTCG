@@ -55,7 +55,7 @@ public class HomeController {
                     return "redirect:/";
                 }
                 else{
-                    return "/verify";
+                    return "verify";
                 }
             }
         }

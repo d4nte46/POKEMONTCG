@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html>
-<html xmlns xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<html xmlns: xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" th:href="@{/vendor/custom/custom-home.css}">
+    <meta charset="UTF-8">
+    <title>Forgor</title>
     <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/vendor/custom.css}">
+    <link rel="stylesheet"
+          th:href="@{/vendor/custom/custom-verify.css}">
 </head>
-<body class = "home-body">
 <div class = "header-custom">
-    Welcome to Pokemon TCG DRMS
-    <br>
-    GUI Version
+    Verify your account!
 </div>
-<div class="btn-group my-1 " role="group">
-    <a type="button"  class="btn-custom mx-1" th:href="@{/addcard}">Add A Card</a>
-    <a type="button"  class="btn-custom mx-1" th:href="@{/addPackage}">Add A Package</a>
-</div>
-<div>
-    <div class="btn-group my-1 " role="group">
-        <button type="button" class="btn-custom mx-1">Sell A Card</button>
-    </div>
-</div>
-<div class = "footer">
-    Designed by zoohire46
+<body class = "home-body">
+<div class = "form_box">
+    <div class = "header_in_form"> Sometimes its best to verify accounts, so we can keep those sneaky zoruas away !</div>
+    <form action="#" class = "input-group" method="POST" th:action="@{/verify}">
+        <input class="input-field" id="email" name="email" placeholder="Account Email" required
+              type="text">
+        <button type="submit" class="btn-custom2-bigmid">Verify Account</button>
+    </form>
+    <div class = "footer_in_form"> You should have received an email containing instructions to verify account </div>
 </div>
 </body>
 </html>

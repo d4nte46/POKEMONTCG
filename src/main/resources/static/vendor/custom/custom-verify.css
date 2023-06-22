@@ -1,0 +1,94 @@
+:root{
+    --my-primary: #5a5a72;
+    --my-secondary: #ac1040;
+    --my-white: #FFFFFF;
+    --my-tertiary : #FACCDA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-body{
+    font-family: 'Courier New', monospace;
+    background-color: var(--my-primary);
+    text-align: center;
+    background-image: url("/vendor/zorua only.png") ;
+    background-position: right bottom;
+    background-repeat:no-repeat;background-attachment:fixed;
+    background-size : 37vw ;
+}
+.header-custom {
+    background-color: transparent;
+    font-weight: bold;
+    padding-top: 15px;
+    color: var(--my-tertiary);
+    font-size: 270%;
+}
+.form_box{
+    margin-top: 0;
+    width: 380px;
+    height: 280px;
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    margin: 7% auto;
+    margin-top: 13%;
+    background: var(--my-secondary);
+    padding: 5px;
+}
+.header_in_form{
+    margin: 1rem;
+    color: var(--my-white);
+}
+
+.input-group{
+    top: 80px;
+    position: absolute;
+    width: 90%;
+    left: 25px;
+}
+
+.input-field{
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--my-white);
+    outline: none;
+    background:transparent;
+    left: 30px;
+}
+
+.btn-custom2-bigmid {
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin: auto;
+    background-color: var(--my-white);
+    width: 100%;
+    height: 40px;
+    border: 3px transparent;
+    color: var(--my-secondary);
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-custom2-bigmid:hover {
+    background-color: transparent ;
+    color: var(--my-white);
+    border: 3px var(--my-primary);
+    text-decoration: underline;
+}
+
+.footer_in_form{
+    margin: 1rem;
+    color: var(--my-white);
+    top: 170px;
+    position: absolute;
+}
