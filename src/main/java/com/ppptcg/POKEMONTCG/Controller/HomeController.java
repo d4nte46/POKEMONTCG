@@ -7,12 +7,12 @@ import com.ppptcg.POKEMONTCG.nonSpringclasses.BCRYPTgenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.Optional;
 
 
@@ -36,7 +36,7 @@ public class HomeController {
     }
 
     @PostMapping("/signin")
-    public String setUser(@RequestParam("loginemail")  String email, @RequestParam("password") String password,Model model, RedirectAttributes red) {
+    public String setUser(@RequestParam("loginemail")  String email, @RequestParam("password") String password,Model model, RedirectAttributes red, HttpSession session) {
 //        System.out.println(User.getEmail() +"\n" + User.getPassword());
 //        return "redirect:/";
         UserEntity loginuser = UserEDao.findByEmail(email).orElse(null);
@@ -45,17 +45,28 @@ public class HomeController {
             red.addFlashAttribute("message",message);
             return "redirect:/";
         }else {
-            BCRYPTgenerator BG = new BCRYPTgenerator();
-            if(!BG.matchpassword(password,loginuser.getPassword())){
-                String message = "The Password Does not match!";
-                red.addFlashAttribute("message",message);
-                return "redirect:/";
+            if(loginuser.getAttempts()>=7){
+                return "forgotpassword";
             }else{
-                if(loginuser.isVerified()){
+                BCRYPTgenerator BG = new BCRYPTgenerator();
+                if(!BG.matchpassword(password,loginuser.getPassword())){
+                    String message = "The Password Does not match!";
+                    loginuser.setAttempts(loginuser.getAttempts()+1);
+                    UserDao.save(loginuser);
+                    red.addFlashAttribute("message",message);
                     return "redirect:/";
-                }
-                else{
-                    return "verify";
+                }else {
+                    if (loginuser.getAttempts() >= 7) {
+                        return "forgotpassword";
+                    } else if (!(loginuser.isVerified())) {
+                        return "verify";
+                    } else {
+                        loginuser.setAttempts(0);
+                        UserDao.save(loginuser);
+                        session.setAttribute("isAuthenticated",true);
+                        session.setAttribute("userId",loginuser.getID());
+                        return "redirect:/main";
+                    }
                 }
             }
         }
@@ -99,12 +110,23 @@ public class HomeController {
             return "redirect:/";
         }
     }
+
+    @GetMapping("/main")
+    public String mainpage(HttpSession session, RedirectAttributes redirectAttributes) {
+        if (session != null && session.getAttribute("isAuthenticated") != null) {
+            if ((boolean) session.getAttribute("isAuthenticated")) {
+                return "main";
+            }
+        }
+
+        redirectAttributes.addFlashAttribute("message","Try logging in with correct credentials");
+        return "redirect:/";
     /*
      * FOR REMEMBERING PASSWORD THING REMEMBER SESSION INSTEAD OF PASSWORD
      *
      *
      *
-     * */
-
+     */
+        }
 }
 

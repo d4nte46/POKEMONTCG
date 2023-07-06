@@ -20,6 +20,7 @@
         <button type="submit" class="btn-custom2-bigmid">Verify Account</button>
     </form>
     <div class = "footer_in_form"> You should have received an email containing instructions to verify account </div>
+    <a th:if="${verifyUrl}" th:href="${verifyUrl}" class="link">verify</a>
 </div>
 </body>
 </html>

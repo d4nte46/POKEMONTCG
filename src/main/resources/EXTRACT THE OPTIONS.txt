@@ -1,0 +1,4371 @@
+<div class="dropdown-menu-content">
+              
+    
+    
+    
+    
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="1">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="363">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="4">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="2">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option selected" tabindex="0" data-value="367">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Energy Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="362">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Expansion Stamp Holo
+        </div>
+
+      
+    
+  
+
+
+    
+          <div class="dropdown-divider"></div>
+    
+  
+    
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="150">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    10th Anniversary
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="47">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1999-2000 Copyright
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="197">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition ("d" Stamp Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="210">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Non-holo Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="208">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Orange Stain)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="5">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Shadowless)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="206">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Shadowless) ("Ghost" Stamp Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="394">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Shadowless) (Blue Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="198">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition (Shadowless) (Red Cheeks)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="383">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    1st Edition, Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="50">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    2000 Pikachu World Collection
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="175">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    20th Anniversary
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="267">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    25th Anniversary
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="272">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    25th Anniversary, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="62">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Arena Cup
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="63">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Arena Cup (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="380">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Astral Radiance Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="379">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Astral Radiance Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="69">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2011 (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="70">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2011 (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="71">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2011 (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="180">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2012 (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="181">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2012 (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="182">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Autumn 2012 (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="183">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2012 (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="185">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2012 (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="188">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2012 (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="184">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2013 (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="186">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2013 (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="187">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Battle Road Spring 2013 (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="369">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Black Star Promo Symbol
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="374">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Brilliant Stars Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="372">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Brilliant Stars Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="108">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Build-A-Bear Workshop
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="80">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Burger King Collection
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="166">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Celestial Storm Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="110">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Europe
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="117">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Europe (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="112">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Europe (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="118">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Europe (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="171">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Latin America
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="174">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Latin America (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="172">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Latin America (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="173">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Latin America (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="113">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships North America
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="116">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships North America (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="114">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships North America (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="115">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships North America (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="109">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Oceania
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="119">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Oceania (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="111">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Oceania (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="120">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Championships Oceania (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="38">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    City Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="56">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    City Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="366">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Confetti Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="381">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Confetti Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="196">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmic Eclipse Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="48">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="244">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo (1999 Copyright)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="276">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo (1999-2000 Copyright)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="162">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo (2012 Copyright Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="212">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo (Missing HP)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="370">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Holo (Upside Down Back Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="353">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cosmos Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="45">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Cracked Ice Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="231">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Darkness Ablaze Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="230">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Darkness Ablaze Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="148">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Destiny Deoxys Movie
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="91">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Detective Pikachu Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="158">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Double Album Box
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="168">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Dragon Majesty Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="161">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Dragon Vault Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="11">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    E3 Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="9">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    E3 Stamp (Red Cheeks)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="169">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    EB Games
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="409">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Energy Holo ("Uncommon" Rarity Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="73">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    European POP Tournament
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="152">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    EX Delta Species Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="164">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Forbidden Light Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="39">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Games Expo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="277">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    GameStop
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="15">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Gen Con
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="268">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Glossy
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="12">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Gold Border
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="356">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Great Detective Pikachu Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="34">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Gym Challenge
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="154">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="414">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Holo (Incorrect Card Attacks)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="68">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    I Choose You! Movie
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="16">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    InQuest
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="176">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    International Challenge
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="177">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    International Challenge (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="13">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Japanese Back
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="7">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="226">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Jumbo Size (Atsushi Nagashima &amp; Kitano Yuji Signature)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="418">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Jumbo Size (Redacted Print)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="399">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Jumbo Size, Cracked Ice Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="400">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Jumbo Size, Mirror Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="153">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Kraze Club
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="101">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Challenge (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="102">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Challenge (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="103">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Challenge (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="104">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Challenge (4th Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="82">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Cup
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="93">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    League Cup (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="88">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Legendary Pokémon Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="146">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Legendary Pokémon Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="393">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Lost Origin Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="392">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Lost Origin Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="167">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Lost Thunder Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="434">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Master Ball Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="350">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Metal Card
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="432">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Mirage Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="401">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Mirror Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="160">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Mirror Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="28">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    National Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="54">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    National Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="29">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Nintendo World
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="49">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    No e-Reader Code
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="351">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    No e-Reader Code, Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="352">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    No e-Reader Code, Non-holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="269">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Non-glossy
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="46">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Non-holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="241">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Non-holo ("Toshinao Aoki" Illustrator Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="211">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Non-holo (1st Edition Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="346">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("6/61" Card Number Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="340">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("D.efending" Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="341">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("d" Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="354">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("damage counters" Text Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="345">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("Phanphy" Text Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="347">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("Uncommon" Rarity Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="349">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal ("Undaunted" Expansion Symbol Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="205">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (90° Energy Symbol)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="235">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Aerodactyl)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="204">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Evolution Box Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="209">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Incomplete Expansion Symbol)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="234">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Kabuto)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="207">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Misaligned "Energy" Text)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="377">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (No Rarity Symbol)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="343">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Pokédex Entry Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="3">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Shadowless)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="395">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Shadowless) (Blue Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="199">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal (Shadowless) (Red Cheeks)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="373">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo ("t" Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="376">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Black Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="378">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Blue Ink Smear)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="422">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Continental Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="342">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Energy Symbol Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="243">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Evolution Box Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="263">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Gray Background Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="375">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Heart Stamp Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="220">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (High Plains Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="428">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Icy Snow Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="429">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Marine Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="219">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Meadow Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="202">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Missing "Stage" Text)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="145">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Missing Expansion Symbol)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="389">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (No Rarity Symbol)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="357">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Non-holo Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="371">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Red Ink Dot)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="427">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Savanna Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="388">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Shadowless)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="203">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo (Shadowless) (Missing Attack Damage)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="358">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Normal Holo, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="40">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Origins
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="155">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Origins (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="361">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Parallel Set (Confetti Holo)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="382">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Parallel Set (Confetti Reverse Holo)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="430">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="403">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon Prize Pack
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="404">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon Prize Pack, Non-holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="405">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon Prize Pack, Vertical Line Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="407">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon Prize Pack, Vertical Line Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="275">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Play! Pokémon, Thank You Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="66">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Player Rewards Program
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="433">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Poké Ball Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="77">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon 4Ever Movie
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="415">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Center
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="14">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Center NY
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="213">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Club
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="79">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Countdown Calendar
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="25">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Day
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="81">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Distributor Meeting
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="391">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Holiday Calendar
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="43">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon League
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="151">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Rocks America
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="78">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon the First Movie
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="240">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon the First Movie (Inverted Stamp)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="348">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Pokémon Überraschungskalender
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="10">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    PokéTour 1999
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="6">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Prerelease
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="89">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Prerelease (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="86">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Prerelease, Cosmos Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="87">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Prerelease, Starlight Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="41">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Professor Program
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="419">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Professor Program (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="420">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Professor Program (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="368">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Promo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="228">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Rebel Clash Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="227">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Rebel Clash Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="27">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Regional Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="55">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Regional Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="396">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo ("Phanphy" Text Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="423">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Continental Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="222">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (High Plains Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="425">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Icy Snow Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="424">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Marine Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="221">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Meadow Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="344">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Pokédex Entry Error)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="426">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Reverse Holo (Savanna Pattern)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="30">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    San Diego Comic Con
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="156">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    San Diego Comic Con (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="416">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Scarlet &amp; Violet Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="417">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Scarlet &amp; Violet Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="20">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Scryre
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="90">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Sequin Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="178">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Sheen Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="397">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Silver Tempest Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="398">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Silver Tempest Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="35">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Stadium Challenge
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="402">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Starlight Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="42">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    State/Prov./Ter. Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="57">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    State/Prov./Ter. Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="223">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Sword &amp; Shield Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="224">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Sword &amp; Shield Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="165">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Team Up Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="232">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Thank You Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="159">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Tinsel Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="52">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Toys "R" Us
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="237">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Trainer Deck A
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="238">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Trainer Deck B
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="390">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Trick or Trade
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="170">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Ultra Prism Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="214">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Unbroken Bonds Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="163">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Unified Minds Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="385">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Unpeeled Card (Bidoof)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="384">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Unpeeled Card (Numel)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="386">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Unpeeled Card (Spinarak)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="339">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Vertical Line Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="406">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Vertical Line Reverse Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="431">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Vertical Sheen Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="233">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Vivid Voltage Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="239">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Vivid Voltage Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="83">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Water Web Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="292">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2004 (Blaziken Tech: Chris Fulop)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="289">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2004 (Magma Spirit: Tsuguyoshi Yamato)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="290">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2004 (Rocky Beach: Reed Weichler)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="291">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2004 (Team Rushdown: Kevin Nguyen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="295">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2005 (Bright Aura: Curran Hill)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="294">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2005 (Dark Tyranitar: Takashi Yoneda)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="296">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2005 (King of the West: Michael Gonzalez)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="293">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2005 (Queendom: Jeremy Maron)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="299">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2006 (B-L-S: Hiroki Yano)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="300">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2006 (Eeveelutions: Jimmy Ballard)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="297">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2006 (Mewtrick: Jason Klaczynski)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="298">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2006 (Suns &amp; Moons: Miska Saari)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="301">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2007 (Flyvees: Jun Hasebe)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="302">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2007 (Legendary Ascent: Tom Roos)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="303">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2007 (Rambolt: Jeremy Scharff-Kim)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="304">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2007 (Swift Empoleon: Akira Miyazaki)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="308">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2008 (Bliss Control: Paul Atanassov)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="305">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2008 (Empotech: Dylan Lefavour)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="306">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2008 (Intimidation: Tristan Robinson)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="307">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2008 (Psychic Lock: Jason Klaczynski)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="310">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2009 (Crowned Tiger: Tsubasa Nakamura)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="312">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2009 (Luxdrill: Stephen Silvestro)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="311">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2009 (Queengar: Jason Martinez)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="309">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2009 (Stallgon: David Cohen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="284">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2010 (Boltevoir: Michael Pramawat)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="313">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2010 (Happy Luck: Mychael Bryan)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="314">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2010 (LuxChomp of the Spirit: Yuta Komatsuda)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="315">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2010 (Power Cottonweed: Yuka Furusawa)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="280">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2011 (Megazone: Gustavo Wada)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="281">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2011 (Reshiphlosion: Christopher Kan)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="282">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2011 (The Truth: Ross Cawthon)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="283">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2011 (Twinboar: David Cohen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="319">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2012 (CMT: Zachary Bokhari)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="318">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2012 (Eeltwo: Chase Moloney)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="316">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2012 (Pesadelo Prism: Igor Costa)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="317">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2012 (Terraki-Mewtwo: Shuto Itagaki)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="321">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2013 (American Gothic: Ian Whiton)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="322">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2013 (Anguille Sous Roche: Clément Lamberton)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="320">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2013 (Darkrai: Jason Klaczynski)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="323">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2013 (Ultimate Team Plasma: Yugo Sato)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="288">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2014 (Crazy Punch: Michikazu Tsuda)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="287">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2014 (Emerald King: Andrew Estrada)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="285">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2014 (Plasma Power: Haruto Kobayashi)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="286">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2014 (Trevgor: Trent Orndorff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="327">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2015 (HonorStoise: Jacob Van Wagner)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="324">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2015 (Primal Groudon: Alejandro Ng-Guzman)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="326">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2015 (Punches 'n' Bites: Patrick Martinez)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="325">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2015 (The Flying Hammer: Rowan Stavenow)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="328">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2016 (Bebe Deck: Jesper Eriksen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="330">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2016 (Black Dragon: Shuntu Sadahiro)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="329">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2016 (Magical Symphony: Shintaro Ito)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="331">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2016 (Ninja Blitz: Cody Walinski)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="279">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2017 (Golisodor: Naoto Suzuki)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="332">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2017 (Ice Path FTW: Zachary Bokhari)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="333">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2017 (Infinite Force: Diego Cassiraga)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="278">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2017 (Samurai Sniper: Kabu Fukase)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="337">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2018 (Buzzroc: Naohito Inoue)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="335">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2018 (Dragones y Sombras: Pedro Eugenio Torres)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="336">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2018 (Garbanette: Magnus Pedersen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="334">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2018 (Victory Map: Robin Schulz)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="266">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2019 (Fire Box: Kaya Lichtleitner)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="264">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2019 (Mind Blown: Shintaro Ito)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="265">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2019 (Perfection: Henry Brand)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="338">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2019 (Pikarom Judge: Haruki Miyamoto)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="413">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2022 (ADP: Ondřej Škubal)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="411">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2022 (Cheryl Again: Sebastian Lashmet)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="410">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2022 (Ice Rider Palkia: Rikuto Ohashi)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="412">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WC Deck 2022 (The Shape of Mew: André Chiasson)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="72">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Winner Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="74">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Winner Stamp, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="32">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Wizard World Chicago
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="31">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Wizard World Philadelphia
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="53">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="107">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="19">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Finalist)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="17">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Quarter-Finalist)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="18">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Semi-Finalist)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="22">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="24">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Top Sixteen)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="23">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Championships (Top Thirty-Two)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="421">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    World Hobby Fair
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="8">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    WOTC Stamp
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="44">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="134">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Europe
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="141">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Europe (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="136">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Europe (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="142">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Europe (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="215">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Latin America
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="218">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Latin America (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="216">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Latin America (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="217">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Latin America (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="137">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships North America
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="140">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships North America (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="138">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships North America (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="139">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships North America (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="133">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Oceania
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="143">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Oceania (Champion)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="135">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Oceania (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="144">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Championships Oceania (Top 8)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="194">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="84">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Jumbo Size
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="97">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Challenge (1st Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="98">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Challenge (2nd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="99">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Challenge (3rd Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="100">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Challenge (4th Place)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="94">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Cup
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="95">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, League Cup (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="195">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Non-holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="92">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Pokémon League
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="105">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Regional Championships
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="106">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Regional Championships (Staff)
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="96">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Sequin Holo
+        </div>
+
+      
+    
+  
+        
+      
+        <div class="dropdown-option " tabindex="0" data-value="179">
+                      <span class="dropdown-option-left-item-container">
+              <span aria-hidden="true" class="dropdown-option-checkbox-indicator-side-item"></span>
+            </span>
+                    Yellow A Alternate, Sheen Holo
+        </div>
+
+      
+    
+  
+
+                </div>

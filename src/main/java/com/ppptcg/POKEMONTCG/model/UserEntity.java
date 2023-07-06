@@ -24,6 +24,8 @@ public class UserEntity implements Serializable {
     private String ID;
 
     private String verification_code;
+
+    private int attempts;
     public String getEmail() {
         return email;
     }
@@ -56,5 +58,13 @@ public class UserEntity implements Serializable {
     public void setvericode(){
         RandomString randomString = new RandomString(13);
         this.verification_code = randomString.generate();
+    }
+
+    public int getAttempts() {
+        return attempts;
+    }
+
+    public void setAttempts(int attempts) {
+        this.attempts = attempts;
     }
 }

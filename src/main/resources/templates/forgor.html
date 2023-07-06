@@ -20,6 +20,7 @@
       <button type="submit" class="btn-custom2-bigmid">Reset Password</button>
     </form>
   <div class = "footer_in_form"> You should have received an email containing instructions to change password </div>
+    <a th:if="${verifyUrl != null && verifyUrl != ''}" th:href="${verifyUrl}" class="link">reset</a>
   </div>
 </body>
 </html>

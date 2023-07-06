@@ -29,7 +29,7 @@
 .form_box{
     margin-top: 0;
     width: 380px;
-    height: 280px;
+    height: 320px;
     border-radius: 25px;
     display: block;
     position: relative;
@@ -91,4 +91,10 @@
     color: var(--my-white);
     top: 170px;
     position: absolute;
+}
+
+.link{
+    position: absolute;
+    bottom: 34px;
+    left: 161px;
 }

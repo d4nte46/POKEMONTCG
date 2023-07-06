@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns: xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" th:href="@{/vendor/custom/custom-main.css}">
+        <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<div class = "header-custom">
+        Welcome to Pokemon TCG DRMS
+        <br>a
+        GUI Version
+</div>
+<body class = "home-body">
+    <div class = "form_box">
+        <div class = "input-group">
+                <a type="button"  class="btn-custom2-bigmid" th:href="@{/addcard}">Add A Card</a>
+                <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">Add A Package</a>
+                <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">Sell A Card</a>
+                <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">See Your Cards</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--Pokemon (c) Nintendo | Wallpaper by MapelRoss-->

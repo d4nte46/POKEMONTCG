@@ -15,7 +15,8 @@
     text-align: center;
     background-image: url("/vendor/psyduck.png") ;
     background-position: right bottom;
-    background-repeat:no-repeat;background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     background-size : 37vw ;
 }
 .header-custom {
@@ -28,7 +29,7 @@
 .form_box{
     margin-top: 0;
     width: 380px;
-    height: 320px;
+    height: 330px;
     border-radius: 25px;
     display: block;
     position: relative;
@@ -68,7 +69,6 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    margin: auto;
     background-color: var(--my-primary);
     width: 100%;
     height: 40px;
@@ -78,22 +78,21 @@
     transition: 0.3s;
 }
 
-.btn-custom2-bigmid:hover {
+.btn-custom2-bigmid:hover:enabled {
     background-color: transparent ;
     color: var(--my-primary);
     border: 3px var(--my-primary);
     text-decoration: underline;
 }
 
+.btn-custom2-bigmid:disabled {
+    background-color: transparent ;
+    color: var(--my-primary);
+}
+
 .footer_in_form{
     margin: 1rem;
     color: var(--my-primary);
-    top: 170px;
+    top: 220px;
     position: absolute;
-}
-
-.link{
-    position: absolute;
-    bottom: 34px;
-    left: 161px;
 }

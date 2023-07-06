@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns: xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Forgor</title>
+  <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
+  <link rel="stylesheet" th:href="@{/vendor/custom.css}">
+  <link rel="stylesheet"
+        th:href="@{/vendor/custom/custom-reset.css}">
+  <script>
+    window.addEventListener("load",function() {
+      var enteredpassword = document.getElementById("password")
+      var checkedpassword = document.getElementById("matchpassword")
+      var valid = document.getElementById("notvalid")
+
+      checkedpassword.addEventListener("keyup", (event) => {
+        if (enteredpassword.value != checkedpassword.value) {
+          console.log("GEEZ NUTS")
+          // valid.style.display = "inherit";
+          // mismatch.textContent = "The Passwords Do Not Match";
+          valid.disabled = true;
+        } else {
+          // mismatch.style.display = "none";
+          // mismatch.textContent = "";
+          valid.disabled = false;
+        }
+      });
+
+      enteredpassword.addEventListener("keyup", (event) => {
+        if (enteredpassword.value != checkedpassword.value) {
+          // mismatch.style.display = "inherit";
+          // mismatch.textContent = "The Passwords Do Not Match";
+          valid.disabled = true;
+        } else {
+          // mismatch.style.display = "none";
+          valid.disabled = false;
+        }
+      });
+    });
+
+
+  </script>
+
+</head>
+<div class = "header-custom">
+  Forgot Password?
+</div>
+<body class = "home-body">
+<div class = "form_box">
+  <div class = "header_in_form"> Remembering passwords can be hard that's why we are here for you! </div>
+  <form action="#" class = "input-group" method="POST" th:action="@{/reset}" >
+    <input type="hidden" name="etomatch" th:value="${etomatch}">
+    <input class="input-field" id="password" name="password"  placeholder="New Password" required
+           type="text">
+    <input class="input-field" id="matchpassword" name="matchpassword" placeholder="Match Password" required
+           type="text">
+    <button type="submit" class="btn-custom2-bigmid" id="notvalid">Reset Password</button>
+  </form>
+  <div class = "footer_in_form"> Tips: Try using physical notepads or browser extensions to note down passwords.</div>
+</div>
+</body>
+</html>
