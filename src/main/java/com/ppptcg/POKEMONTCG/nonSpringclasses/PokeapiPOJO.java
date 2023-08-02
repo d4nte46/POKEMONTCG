@@ -13,7 +13,6 @@ public class PokeapiPOJO {
             @Value("POKEMONTCG.IO.API.KEY") String Api_Key
     ){
         this.Api_Key = Api_Key;
-
     }
 
     public String getApi_Key() {

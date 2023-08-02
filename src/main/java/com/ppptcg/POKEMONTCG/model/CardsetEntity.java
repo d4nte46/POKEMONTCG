@@ -6,18 +6,17 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity
-@Table(name = "table_name_id", schema = "pokemon_tcg_demo_db")
-@NoArgsConstructor
 @AllArgsConstructor
-public class TableNameIdEntity {
-    @Basic
+@NoArgsConstructor
+@Entity
+@Table(name = "cardset", schema = "card", catalog = "postgres")
+public class CardsetEntity {
     @Id
     @Column(name = "id")
     private String id;
     @Basic
-    @Column(name = "name")
-    private String name;
+    @Column(name = "cardset")
+    private String cardset;
 
     public String getId() {
         return id;
@@ -27,24 +26,25 @@ public class TableNameIdEntity {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getCardset() {
+        return cardset;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCardset(String cardset) {
+        this.cardset = cardset;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        TableNameIdEntity that = (TableNameIdEntity) o;
-        return Objects.equals(id, that.id) && Objects.equals(name, that.name);
+        CardsetEntity that = (CardsetEntity) o;
+        return Objects.equals(id, that.id) && Objects.equals(cardset, that.cardset);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name);
+        return Objects.hash(id, cardset);
     }
+
 }

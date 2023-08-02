@@ -78,6 +78,28 @@ public class ptcg_io_interaction {
         return nameid;
     }
 
+    public String[] gotta_get_all_set_names() throws UnirestException, JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNSETS = Unirest.get("https://api.pokemontcg.io/v2/sets")
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNSETS));
+        JsonNode co = node.at("/data");
+        List<JsonNode> namelist = co.findValues("name");
+        String[] names = new String[namelist.size()];
+
+        for (int i = 0 ; i < namelist.size(); i++){
+            names[i] = (String.valueOf(namelist.get(i)).replace("\"",""));
+        }
+
+
+
+        return names;
+    }
+
     public String get_card_img(String id) throws UnirestException,JsonProcessingException{
         ObjectMapper objectMapper = new ObjectMapper();
         JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")

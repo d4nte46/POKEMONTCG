@@ -21,26 +21,27 @@
             Add A New Card to Database
         </div>
         <div class = "section">
-                <form action = "#" th:action="@{/addcard}" method="POST" th:object="${rd}" class = "form_box">
+                <form action = "#" th:action="@{/addcard}" method="POST" th:object="${UCIE}" class = "form_box">
                     <div class="input">
-                        <input class="input-field" required th:field="*{ID}" type=number>
+                        <input class="input-field" required th:field="*{id}" type=number>
                         <label class = "input-label"> ID </label>
                     </div>
                     <div class="input_drop">
-                        <select id = setname class = "js-example-basic-single " th:field="*{packname}" >
-                            <option th:each="name : ${setnames}" th:text="${name.name}" th:value="${name.id}" ></option>
+                        <select id = setname class = "js-example-basic-single " th:field="*{setId}" >
+                            <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
                         </select>
                     </div>
-                    <div class = "input-box">
-                                <input type=checkbox th:field="*{reverseholofoil}" id = "checkbox" >
-                                 <label for=checkbox >Reverse Holofoil </label>
+                    <div class="input_drop">
+                        <select id = varietyname class = "js-example-basic-single " th:field="*{varietyName}" >
+                            <option th:each="name : ${varietyname}" th:text="${name}" th:value="${name}" ></option>
+                        </select>
                     </div>
                     <button class = "btn-custom">Submit</button>
-                    <a type="button" class = "btn-custom" style= "margin: -3px;margin-top: 1rem;" th:href="@{/}">Return to home</a>
+                    <a type="button" class = "btn-custom" style= "margin: -3px;margin-top: 1rem;" th:href="@{/main}">Return to home</a>
                 </form>
         </div>
         <div class = "footer2right">
-            <button class = "btn-custom2">Update Sets</button>
+            <a class = "btn-custom2" th:href="@{/addcard/addallsets}">Update Sets</a>
         </div>
     </body>
 </html>

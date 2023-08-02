@@ -3,8 +3,9 @@ package com.ppptcg.POKEMONTCG.Controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.ppptcg.POKEMONTCG.DAO.PackageDao;
-import com.ppptcg.POKEMONTCG.model.Rand;
-import com.ppptcg.POKEMONTCG.model.TableNameIdEntity;
+import com.ppptcg.POKEMONTCG.model.CardsetEntity;
+import com.ppptcg.POKEMONTCG.model.userCardInputEntity;
+import com.ppptcg.POKEMONTCG.nonSpringclasses.InfoFromList;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.PokeapiPOJO;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.ptcg_io_interaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,31 +23,37 @@ public class CardAddController {
     PokeapiPOJO pokeapiPOJO;
     @Autowired
     PackageDao PackageRep;
-    @PostMapping("/addcard/addallsets")
+
+    InfoFromList infl = new InfoFromList();
+    @GetMapping("/addcard/addallsets")
     public String updateSets() throws UnirestException, JsonProcessingException {
 
-        System.out.println("CUM");
         ptcg_io_interaction ption = new ptcg_io_interaction(pokeapiPOJO.getApi_Key());
         HashMap<String,String> setnames = ption.gotta_get_all_sets();
-        setnames.forEach((name,id)-> PackageRep.save(new TableNameIdEntity(id,name)));
-
+        setnames.forEach((name,id)-> PackageRep.save(new CardsetEntity(id,name)));
         return "redirect:/addcard";
     }
 
     @PostMapping("/addcard")
-    public String setrandentity(@ModelAttribute("rd") Rand rd, RedirectAttributes redirectAttributes){
-            System.out.println(rd.getPackname() + " \n" + rd.getID() + "\n" + rd.isReverseholofoil());
-            redirectAttributes.addFlashAttribute("rd",rd);
+    public String setrandentity(@ModelAttribute("UCIE") userCardInputEntity UCIE, RedirectAttributes redirectAttributes){
+            System.out.println(UCIE.getSetId() + " \n" + UCIE.getId() + "\n" + UCIE.getVarietyName());
+            redirectAttributes.addFlashAttribute("UCIE",UCIE);
             return "redirect:/addcardsuccess";
 
     };
 
     @GetMapping ("/addcard")
     public String cardnew(Model model){
-        List<TableNameIdEntity> setnames = PackageRep.findAll();
-        Rand rd = new Rand();
+        String[] varietyname = infl.gettheinfo("Variant List.txt");
+        List<CardsetEntity> hehe = PackageRep.findAll();
+        String[] setnames = new String[hehe.size()];
+        for(int i = 0; i < hehe.size();i++){
+           setnames[i] = hehe.get(i).getCardset();
+        }
+        userCardInputEntity UCIE = new userCardInputEntity();
         model.addAttribute("setnames", setnames);
-        model.addAttribute("rd",rd);
+        model.addAttribute("varietyname", varietyname);
+        model.addAttribute("UCIE",UCIE);
         return "cardnew";
     }
 

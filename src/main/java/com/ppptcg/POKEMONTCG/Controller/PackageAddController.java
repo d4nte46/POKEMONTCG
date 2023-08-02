@@ -3,7 +3,7 @@ package com.ppptcg.POKEMONTCG.Controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.ppptcg.POKEMONTCG.DAO.PackageDao;
-import com.ppptcg.POKEMONTCG.model.TableNameIdEntity;
+import com.ppptcg.POKEMONTCG.model.CardsetEntity;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.PokeapiPOJO;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.ptcg_io_interaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +30,7 @@ public class PackageAddController {
 
         ptcg_io_interaction ption = new ptcg_io_interaction(pokeapiPOJO.getApi_Key());
         HashMap<String,String> setnames = ption.gotta_get_all_sets();
-        setnames.forEach((name,id)-> PackageRep.save(new TableNameIdEntity(id,name)));
+        setnames.forEach((name,id)-> PackageRep.save(new CardsetEntity(id,name)));
         return "redirect:/addPackage";
     }
 

@@ -3,7 +3,7 @@ package com.ppptcg.POKEMONTCG.Controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.ppptcg.POKEMONTCG.DAO.PackageDao;
-import com.ppptcg.POKEMONTCG.model.Rand;
+import com.ppptcg.POKEMONTCG.model.userCardInputEntity;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.PokeapiPOJO;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.ptcg_io_interaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,10 +19,10 @@ public class  CardSuccessController {
     @Autowired
     PackageDao PackageRep;
     @GetMapping("/addcardsuccess")
-    public String cardsuccess(@ModelAttribute("rd") Rand rd,Model model) throws UnirestException, JsonProcessingException {
-        model.addAttribute("rd",rd);
+    public String cardsuccess(@ModelAttribute("UCIE") userCardInputEntity UCIE, Model model) throws UnirestException, JsonProcessingException {
+        model.addAttribute("UCIE",UCIE);
         ptcg_io_interaction ption = new ptcg_io_interaction(pokeapiPOJO.getApi_Key());
-        String link = ption.get_card_img(rd.getPackname() + "-" + rd.getID()).replace("\"" , "") ;
+        String link = ption.get_card_img(UCIE.getSetId() + "-" + UCIE.getId()).replace("\"" , "") ;
         model.addAttribute("link",link);
         return "cardaddsuccess";
     }
