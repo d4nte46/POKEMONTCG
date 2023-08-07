@@ -26,10 +26,16 @@
                         <input class="input-field" required th:field="*{id}" type=number>
                         <label class = "input-label"> ID </label>
                     </div>
+                    <div style = "display : flex;color: #FFFFFF;" >
+                        Set Name
+                    </div>
                     <div class="input_drop">
                         <select id = setname class = "js-example-basic-single " th:field="*{setId}" >
                             <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
                         </select>
+                    </div>
+                    <div style = "display : flex;color: #FFFFFF;" >
+                        Speciality
                     </div>
                     <div class="input_drop">
                         <select id = varietyname class = "js-example-basic-single " th:field="*{varietyName}" >
