@@ -19,6 +19,10 @@
                 <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">Add A Package</a>
                 <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">Sell A Card</a>
                 <a type="button"  class="btn-custom2-bigmid" th:href="@{/addPackage}">See Your Cards</a>
+                <div th:if="${message}">
+                    <div style="font-weight: bold; color: #7E9680" th:text="${message}">
+                    </div>
+                </div>
         </div>
     </div>
 </body>
