@@ -22,37 +22,36 @@ public class ptcg_io_interaction {
     public ptcg_io_interaction(String api){
         this.setApi(api);
     }
-//    private String api = "4b7cb311-a9f6-4310-b370-21bf559b0c67";
-    String get_card(String card) throws UnirestException, JsonProcessingException {
-
-        ObjectMapper objectMapper = new ObjectMapper();
-        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{card}")
-                .routeParam("card",card)
-                .queryString("x-Api-Key",api)
-                .asJson()
-                .getBody()
-                .getObject();
-
-        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
-        JsonNode co = node.at("/data/rarity");
-
-        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co);
-    }
-
-    String find_set(String set) throws UnirestException, JsonProcessingException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        JSONObject PKMNSET= Unirest.get("https://api.pokemontcg.io/v2/sets?q=name:{set}")
-                .routeParam("set",set)
-                .queryString("x-Api-Key",api)
-                .asJson()
-                .getBody()
-                .getObject();
-
-        JsonNode node = objectMapper.readTree(String.valueOf(PKMNSET));
-        JsonNode co = node.at("/data");
-        List<JsonNode> list = co.findValues("id");
-        return list.toString();
-    }
+//    String get_card(String card) throws UnirestException, JsonProcessingException {
+//
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{card}")
+//                .routeParam("card",card)
+//                .queryString("x-Api-Key",api)
+//                .asJson()
+//                .getBody()
+//                .getObject();
+//
+//        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+//        JsonNode co = node.at("/data/rarity");
+//
+//        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co);
+//    }
+//
+//    String find_set(String set) throws UnirestException, JsonProcessingException {
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        JSONObject PKMNSET= Unirest.get("https://api.pokemontcg.io/v2/sets?q=name:{set}")
+//                .routeParam("set",set)
+//                .queryString("x-Api-Key",api)
+//                .asJson()
+//                .getBody()
+//                .getObject();
+//
+//        JsonNode node = objectMapper.readTree(String.valueOf(PKMNSET));
+//        JsonNode co = node.at("/data");
+//        List<JsonNode> list = co.findValues("id");
+//        return list.toString();
+//    }
 
     public HashMap<String, String> gotta_get_all_sets() throws UnirestException, JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
@@ -114,6 +113,21 @@ public class ptcg_io_interaction {
 
         return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co);
 
+    }
+
+    public String getArtist(short id, String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/artist");
+
+        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co).replace("\"" , "");
     }
 
 

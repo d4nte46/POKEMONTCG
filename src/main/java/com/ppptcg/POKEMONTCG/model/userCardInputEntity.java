@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Entity
 public class userCardInputEntity implements Serializable {
     @Id
-    private Integer id;
+    private Short id;
 
     @Id
     private String setId;
@@ -20,11 +20,11 @@ public class userCardInputEntity implements Serializable {
     @Id
     private String varietyName;
 
-    public Integer getId() {
+    public Short getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Short id) {
         this.id = id;
     }
 

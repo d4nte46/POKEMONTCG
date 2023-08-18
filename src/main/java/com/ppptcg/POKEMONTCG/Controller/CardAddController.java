@@ -14,6 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.List;
 
@@ -43,18 +44,24 @@ public class CardAddController {
     };
 
     @GetMapping ("/addcard")
-    public String cardnew(Model model){
-        String[] varietyname = infl.gettheinfo("Variant List.txt");
-        List<CardsetEntity> hehe = PackageRep.findAll();
-        String[] setnames = new String[hehe.size()];
-        for(int i = 0; i < hehe.size();i++){
-           setnames[i] = hehe.get(i).getCardset();
+    public String cardnew(Model model, HttpSession session, RedirectAttributes redirectAttributes) {
+        if (session != null && session.getAttribute("isAuthenticated") != null) {
+            if ((boolean) session.getAttribute("isAuthenticated")) {
+                String[] varietyname = infl.gettheinfo("Variant List.txt");
+                List<CardsetEntity> hehe = PackageRep.findAll();
+                String[] setnames = new String[hehe.size()];
+                for (int i = 0; i < hehe.size(); i++) {
+                    setnames[i] = hehe.get(i).getCardset();
+                }
+                userCardInputEntity UCIE = new userCardInputEntity();
+                model.addAttribute("setnames", setnames);
+                model.addAttribute("varietyname", varietyname);
+                model.addAttribute("UCIE", UCIE);
+                return "cardnew";
+            }
         }
-        userCardInputEntity UCIE = new userCardInputEntity();
-        model.addAttribute("setnames", setnames);
-        model.addAttribute("varietyname", varietyname);
-        model.addAttribute("UCIE",UCIE);
-        return "cardnew";
+        redirectAttributes.addFlashAttribute("message","Try logging in with correct credentials");
+        return "redirect:/";
     }
 
 }
