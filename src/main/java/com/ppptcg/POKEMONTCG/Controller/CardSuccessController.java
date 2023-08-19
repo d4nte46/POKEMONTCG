@@ -19,26 +19,35 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class  CardSuccessController {
-    @Autowired
-    private PokeapiPOJO pokeapiPOJO;
+    private final PokeapiPOJO pokeapiPOJO;
 
-    @Autowired
-    private PackageDao PackageRep;
+    private final PackageDao PackageRep;
 
-    @Autowired
-    private CardDao CD;
+    private final CardDao CD;
 
-    @Autowired
-    private ownerCardDAO ocd;
+    private final ownerCardDAO ocd;
 
-    @Autowired
-    private pokemonDAO pd;
+    private final pokemonDAO pd;
 
-    @Autowired
-    private subtypesDAO sd;
+    private final subtypesDAO sd;
 
-    @Autowired
-    private typesDAO td;
+    private final typesDAO td;
+
+    private final TrainerDAO TrD;
+
+    private final EnergyDao ED;
+
+    public CardSuccessController(PokeapiPOJO pokeapiPOJO, PackageDao PackageRep, CardDao CD, ownerCardDAO ocd, pokemonDAO pd, subtypesDAO sd, typesDAO td, TrainerDAO TrD, EnergyDao ED) {
+        this.pokeapiPOJO = pokeapiPOJO;
+        this.PackageRep = PackageRep;
+        this.CD = CD;
+        this.ocd = ocd;
+        this.pd = pd;
+        this.sd = sd;
+        this.td = td;
+        this.TrD = TrD;
+        this.ED = ED;
+    }
 //    @Autowired
 //    private ResourceLoader RL;
 
@@ -94,7 +103,7 @@ public class  CardSuccessController {
                 + " \n Variety :  "
                 + UCIE.getVarietyName() );
 
-        CardEntity temp = new CardEntity(SetId ,Id,ption.getArtist(UCIE.getId(),SetId), ption.getRarity(UCIE.getId(),SetId),UCIE.getVarietyName());
+        CardEntity temp = new CardEntity(SetId ,Id,ption.getArtist(UCIE.getId(),SetId), ption.getRarity(Id,SetId),UCIE.getVarietyName());
 //        CD.save(temp);
 
         ownerCardEntity tpoe = new ownerCardEntity(session.getAttribute("userId").toString(),temp.getId());
@@ -120,10 +129,19 @@ public class  CardSuccessController {
                 //td.save(tte);
             }
         }else if (suppe.equals("Trainer")) {
-
+            String[] TRSub = ption.getSubTypes(Id,SetId);
+            for(String sub : TRSub){
+                TrainerEntity tte = new TrainerEntity(temp.getId(), sub,ption.getName(Id,SetId));
+                System.out.println(tte.toString());
+//                TrD.save(tte);
+            }
         }else {
-
+            EnergyEntity tee = new EnergyEntity(temp.getId(),ption.getName(Id,SetId));
+            System.out.println(tee.toString());
+//            ED.save(tee);
         }
+
+
 
         System.out.println(suppe);
         System.out.println(tpoe.toString());
