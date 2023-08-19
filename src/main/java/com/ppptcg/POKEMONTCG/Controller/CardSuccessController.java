@@ -2,13 +2,8 @@ package com.ppptcg.POKEMONTCG.Controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import com.ppptcg.POKEMONTCG.DAO.CardDao;
-import com.ppptcg.POKEMONTCG.DAO.PackageDao;
-import com.ppptcg.POKEMONTCG.DAO.ownerCardDAO;
-import com.ppptcg.POKEMONTCG.model.CardEntity;
-import com.ppptcg.POKEMONTCG.model.CardsetEntity;
-import com.ppptcg.POKEMONTCG.model.ownerCardEntity;
-import com.ppptcg.POKEMONTCG.model.userCardInputEntity;
+import com.ppptcg.POKEMONTCG.DAO.*;
+import com.ppptcg.POKEMONTCG.model.*;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.PokeapiPOJO;
 import com.ppptcg.POKEMONTCG.nonSpringclasses.ptcg_io_interaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.SessionAttribute;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -35,6 +31,14 @@ public class  CardSuccessController {
     @Autowired
     private ownerCardDAO ocd;
 
+    @Autowired
+    private pokemonDAO pd;
+
+    @Autowired
+    private subtypesDAO sd;
+
+    @Autowired
+    private typesDAO td;
 //    @Autowired
 //    private ResourceLoader RL;
 
@@ -49,16 +53,19 @@ public class  CardSuccessController {
             CardsetEntity cardset = PackageRep.findByName(UCIE.getSetId());
             session.setAttribute("UCIE",UCIE);
             System.out.println(cardset.getId() + UCIE.getId());
+            String ST ;
             if(cardset.getCardset().contains("Trainer Gallery")){
                 if (UCIE.getId()<10){
-                    link = ption.get_card_img(cardset.getId() + "-TG0" + UCIE.getId()).replace("\"" , "") ;
-                    model.addAttribute("link",link);
+                    ST = cardset.getId() + "-TG0" + UCIE.getId();
+                    link = ption.get_card_img(ST).replace("\"" , "") ;
                     }
                 else{
-                    link = ption.get_card_img(cardset.getId() + "-TG" + UCIE.getId()).replace("\"" , "") ;
+                    ST = cardset.getId() + "-TG" + UCIE.getId();
+                    link = ption.get_card_img(ST).replace("\"" , "") ;
                 }}
             else{
-                link = ption.get_card_img(cardset.getId() + "-" + UCIE.getId()).replace("\"" , "") ;
+                ST = cardset.getId() + "-" + UCIE.getId();
+                link = ption.get_card_img(ST).replace("\"" , "") ;
             }
             if (link.equals("null")){
                 redirectAttributes.addFlashAttribute("message","This Card does not Exist, Cross check with your physical Copy");
@@ -75,22 +82,50 @@ public class  CardSuccessController {
     @GetMapping("/addcardconfirm")
     public String confirmedcard (@SessionAttribute("UCIE") userCardInputEntity UCIE, HttpSession session,RedirectAttributes red) throws UnirestException, JsonProcessingException {
         ptcg_io_interaction ption = new ptcg_io_interaction(pokeapiPOJO.getApi_Key());
-        String Id = PackageRep.findByName(UCIE.getSetId()).getId();
+
+        Short Id = UCIE.getId();
+        String SetId = PackageRep.findByName(UCIE.getSetId()).getId();
+        String suppe = ption.getSuperType(Id,SetId);
         red.addFlashAttribute("message","You have successfully added a card");
         System.out.println("The values are as follows \n User ID : "
                 + session.getAttribute("userId")
-                + " \n Card ID : " + UCIE.getId() + " \n Set ID : "
-                + Id
+                + " \n Card ID : " + Id + " \n Set ID : "
+                + SetId
                 + " \n Variety :  "
                 + UCIE.getVarietyName() );
 
-        CardEntity temp = new CardEntity(Id , UCIE.getId(),ption.getArtist(UCIE.getId(),Id), UCIE.getVarietyName());
-        CD.save(temp);
+        CardEntity temp = new CardEntity(SetId ,Id,ption.getArtist(UCIE.getId(),SetId), UCIE.getVarietyName());
+//        CD.save(temp);
 
         ownerCardEntity tpoe = new ownerCardEntity(session.getAttribute("userId").toString(),temp.getId());
+//        ocd.save(tpoe);
 
-        ocd.save(tpoe);
+        if(suppe.equals("Pokémon")){
+            String[] PKNO = ption.getNationalDexID(Id,SetId);
+            String[] PKSub = ption.getSubTypes(Id,SetId);
+            String[] PKTypes = ption.getTypes(Id,SetId);
+            for(String number : PKNO){
+                PokemonEntity tpc = new PokemonEntity(temp.getId(), Short.parseShort(number));
+                System.out.println(tpc.toString());
+//                pd.save(tpc);
+            }
+            for(String subType : PKSub){
+                SubtypesEntity tse = new SubtypesEntity(temp.getId(), subType);
+                System.out.println(tse.toString());
+                //sd.save(tse);
+            }
+            for(String Type : PKTypes){
+                TypesCounterEntity tte = new TypesCounterEntity(temp.getId(),Type);
+                System.out.println(tte.toString());
+                //td.save(tte);
+            }
+        } else if (suppe.equals("Trainer")) {
 
+        }else {
+
+        }
+
+        System.out.println(suppe);
         System.out.println(tpoe.toString());
         System.out.println(temp.toString());
         session.removeAttribute("UCIE");

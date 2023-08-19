@@ -94,8 +94,6 @@ public class ptcg_io_interaction {
             names[i] = (String.valueOf(namelist.get(i)).replace("\"",""));
         }
 
-
-
         return names;
     }
 
@@ -130,6 +128,75 @@ public class ptcg_io_interaction {
         return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co).replace("\"" , "");
     }
 
+    public String getSuperType(short id, String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/supertype");
+
+        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co).replace("\"" , "");
+
+    }
+
+    public String[] getNationalDexID(short id, String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/nationalPokedexNumbers");
 
 
+        String[] names = objectMapper.treeToValue(co, String[].class);
+
+        return names;
+
+    }
+
+    public String[] getSubTypes(short id,String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/subtypes");
+
+
+        String[] names = objectMapper.treeToValue(co, String[].class);
+
+        return names;
+    }
+
+
+    public String[] getTypes(short id,String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/types");
+
+
+        String[] names = objectMapper.treeToValue(co, String[].class);
+
+        return names;
+    }
 }
