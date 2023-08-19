@@ -1,15 +1,13 @@
 package com.ppptcg.POKEMONTCG.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 import net.bytebuddy.build.ToStringPlugin;
 
 import javax.persistence.*;
 import java.util.Objects;
 @ToString
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -31,33 +29,18 @@ public class CardEntity {
     @Basic
     @Column(name = "rarity")
     private String rarity;
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setSetid(String setid) {
-        this.setid = setid;
-    }
-
-    public void setSetnumber(short setnumber) {
-        this.setnumber = setnumber;
-    }
-
-    public void setIllustrator(String illustrator) {
-        this.illustrator = illustrator;
-    }
-
-    public void setRarity(String rarity) {
-        this.rarity = rarity;
-    }
+    @Basic
+    @Column(name = "variety")
+    private String variety;
 
 
-    public CardEntity(String setid, short setnumber, String illustrator, String rarity) {
+    public CardEntity(String setid, short setnumber, String illustrator, String rarity,String variety) {
         this.setid = setid;
         this.setnumber = setnumber;
         this.illustrator = illustrator;
         this.rarity = rarity;
+        this.variety = variety;
+
     }
 
 }

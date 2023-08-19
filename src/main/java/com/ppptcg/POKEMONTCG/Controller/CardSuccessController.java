@@ -94,7 +94,7 @@ public class  CardSuccessController {
                 + " \n Variety :  "
                 + UCIE.getVarietyName() );
 
-        CardEntity temp = new CardEntity(SetId ,Id,ption.getArtist(UCIE.getId(),SetId), UCIE.getVarietyName());
+        CardEntity temp = new CardEntity(SetId ,Id,ption.getArtist(UCIE.getId(),SetId), ption.getRarity(UCIE.getId(),SetId),UCIE.getVarietyName());
 //        CD.save(temp);
 
         ownerCardEntity tpoe = new ownerCardEntity(session.getAttribute("userId").toString(),temp.getId());
@@ -119,7 +119,7 @@ public class  CardSuccessController {
                 System.out.println(tte.toString());
                 //td.save(tte);
             }
-        } else if (suppe.equals("Trainer")) {
+        }else if (suppe.equals("Trainer")) {
 
         }else {
 

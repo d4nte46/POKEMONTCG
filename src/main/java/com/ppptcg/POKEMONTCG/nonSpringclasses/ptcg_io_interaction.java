@@ -199,4 +199,20 @@ public class ptcg_io_interaction {
 
         return names;
     }
+
+    public String getRarity(short id, String setNameId) throws UnirestException,JsonProcessingException{
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONObject PKMNCard = Unirest.get("https://api.pokemontcg.io/v2/cards/{id}")
+                .routeParam("id",setNameId+"-"+id)
+                .queryString("x-Api-Key",api)
+                .asJson()
+                .getBody()
+                .getObject();
+
+        JsonNode node = objectMapper.readTree(String.valueOf(PKMNCard));
+        JsonNode co = node.at("/data/rarity");
+
+        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(co).replace("\"" , "");
+
+    }
 }
