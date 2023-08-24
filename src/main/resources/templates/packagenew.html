@@ -1,31 +1,55 @@
-<!DOCTYPE html>
-<html xmlns xmlns:th="http://www.w3.org/1999/xhtml" : th="http://www.thymeleaf.org">
+<html lang="EN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
-    <link rel="stylesheet" th:href="@{/vendor/custom.css}">
-    <style> body {background-color:#E85B4D;}
-    h1
-    {text-align: center;
-        color : #1C1917 }
-    h2
-    {text-align: center;
-        color : #1C1917 }
-    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <link rel="stylesheet"
+          th:href="@{/vendor/custom/custom-add-package.css}">
+    <title>
+        Adding Packages
+    </title>
+<!--    <script>$(document).ready(function() {-->
+<!--        $('.js-example-basic-single').select2();-->
+<!--        $(".select").each(function() {-->
+<!--            $(this).siblings(".select2-container").css('border', '5px solid red');-->
+<!--        });-->
+<!--    });</script>-->
 </head>
-<body class = "home-body2">
-<div>
+<body class = "home-body">
+<div class = "header-custom">
+    Add A New Package to Database
+</div>
+<div class = "boxed-form">
 
 </div>
-<form action = "#" th:action="@{/addPackage/addallsets}" method="post">
-    <div class = "footer2right">
-        <button class = "btn-custom2">Update Sets</button>
-    </div>
-</form>
-<div class = "footer2">
-Pokemon (c) Nintendo | Wallpaper by MapelRoss
-</div>
+<!--<div class = "section">-->
+<!--    <form action = "#" th:action="@{/addcard}" method="POST" th:object="${UCIE}" class = "form_box">-->
+<!--        <div class="input">-->
+<!--            <input class="input-field" required th:field="*{id}" type=number>-->
+<!--            <label class = "input-label"> ID </label>-->
+<!--        </div>-->
+<!--        <div style = "display : flex;color: #FFFFFF;" >-->
+<!--            Set Name-->
+<!--        </div>-->
+<!--        <div class="input_drop">-->
+<!--            <select id = setname class = "js-example-basic-single " th:field="*{setId}" >-->
+<!--                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>-->
+<!--            </select>-->
+<!--        </div>-->
+<!--        <div style = "display : flex;color: #FFFFFF;" >-->
+<!--            Speciality-->
+<!--        </div>-->
+<!--        <div class="input_drop">-->
+<!--            <select id = varietyname class = "js-example-basic-single " th:field="*{varietyName}" >-->
+<!--                <option th:each="name : ${varietyname}" th:text="${name}" th:value="${name}" ></option>-->
+<!--            </select>-->
+<!--        </div>-->
+<!--        <button class = "btn-custom">Submit</button>-->
+<!--        <a type="button" class = "btn-custom" style= "margin: -3px;margin-top: 1rem;box-sizing: border-box" th:href="@{/main}">Return to home</a>-->
+<!--    </form>-->
+<!--</div>-->
+<!--<div class = "footer2right">-->
+<!--    <a class = "btn-custom2" th:href="@{/addcard/addallsets}">Update Sets</a>-->
+<!--</div>-->
 </body>
+</html>

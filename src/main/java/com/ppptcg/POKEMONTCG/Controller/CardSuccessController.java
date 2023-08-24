@@ -121,12 +121,12 @@ public class  CardSuccessController {
             for(String subType : PKSub){
                 SubtypesEntity tse = new SubtypesEntity(temp.getId(), subType);
                 System.out.println(tse.toString());
-                //sd.save(tse);
+//                sd.save(tse);
             }
             for(String Type : PKTypes){
                 TypesCounterEntity tte = new TypesCounterEntity(temp.getId(),Type);
                 System.out.println(tte.toString());
-                //td.save(tte);
+//                td.save(tte);
             }
         }else if (suppe.equals("Trainer")) {
             String[] TRSub = ption.getSubTypes(Id,SetId);

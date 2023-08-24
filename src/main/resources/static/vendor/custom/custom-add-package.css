@@ -1,0 +1,40 @@
+:root{
+    --my-primary: #274168;
+    --my-black: #1C1917;
+    --my-secondary: #FFD541;
+}
+
+
+.home-body{
+    font-family: 'Courier New', monospace;
+    background-color: var(--my-primary) ;
+    text-align: center;
+    background-image: url("/vendor/only_whiscash.png");
+    background-position: right bottom;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size : 37vw ;
+}
+
+.header-custom{
+    background-color: transparent;
+    font-weight: bold;
+    padding-top: 15px;
+    color: var(--my-secondary);
+    font-size: 370%;
+    padding-bottom: 1.5rem;
+}
+
+.boxed-form{
+    margin-top: 0;
+    width: 600px;
+    height: 480px;
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    margin: 7% auto;
+    margin-top: 13%;
+    background: var(--my-secondary);
+    padding: 5px;
+    overflow: hidden;
+}
