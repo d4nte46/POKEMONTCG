@@ -4,6 +4,42 @@
     --my-secondary: #FFD541;
 }
 
+/*select jquery modifications*/
+.select2-selection{
+    background-color:transparent !important;
+    color:var(--my-secondary) !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: var(--my-primary) !important;
+}
+.select2-container--default .select2-results__option[aria-selected=true]{
+    background-color: var(--my-primary);
+    color : var(--my-secondary);
+}
+.select2-container--default .select2-results>.select2-results__options{
+    background-color: var(--my-primary);
+    color : var(--my-secondary);
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: var(--my-secondary);
+    color : var(--my-primary);
+}
+select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid var(--my-secondary) !important;
+    background-color: var(--my-primary) !important;
+}
+.select2-container--default .select2-results>.select2-results__options {
+    border-bottom-left-radius: 7px; !important;
+    border-bottom-right-radius: 7px; !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+    border-bottom-left-radius: 7px; !important;
+    border-bottom-right-radius: 7px; !important;
+}
+.select2-search--dropdown{
+    background-color: var(--my-secondary);
+}
 
 .home-body{
     font-family: 'Courier New', monospace;
@@ -26,15 +62,135 @@
 }
 
 .boxed-form{
-    margin-top: 0;
     width: 600px;
-    height: 480px;
+    height: 735px;
     border-radius: 25px;
     display: block;
     position: relative;
-    margin: 7% auto;
-    margin-top: 13%;
+    margin: 3.5% auto;
     background: var(--my-secondary);
     padding: 5px;
     overflow: hidden;
+}
+
+.id{
+    display: inherit;
+    flex-direction: column-reverse;
+}
+
+.input_drop {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border: 0;
+    padding-bottom: 2vh;
+}
+
+.form_box{
+    position: relative;
+    height: 69vh;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border: 0;
+    padding-block: 1.5rem;
+    margin-top: 1rem;
+}
+
+.input-field{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: 0.25rem 0;
+    outline : none;
+    border-bottom: 1px solid var(--my-primary);
+    transition: border-bottom-color 0.5s ease;
+    width:98%;
+    position:absolute;
+    right:1%;
+}
+
+.input-label{
+    color: var(--my-primary);
+    text-transform: uppercase;
+    top: 1.5rem;
+    transition: 0.5s ease;
+ }
+
+.input-field:focus + .input-label, .input-field:valid + .input-label{
+    /*color: #FFFFFF;*/
+    transform: translateY(-1.5rem);
+    outline: none;
+}
+
+.option{
+    display: block;
+    float: left;
+    width: 97%;
+    position: inherit;
+    left: 2%;
+    height: 7%;
+}
+
+.input-field:focus{
+    border-bottom: 1px solid #1C1917;
+}
+
+.input-field-small{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: 0.25rem 0;
+    outline: none;
+    border-bottom: 1px solid var(--my-primary);
+    transition: border-bottom-color 0.5s ease;
+    width: 29%;
+    position: absolute;
+    left: 8.4%;
+}
+
+.select2-container{
+    display: block;!important;
+    float: right;!important;
+}
+
+.variety-label{
+    padding-right: 6%;
+    display: block;
+    float: right
+}
+
+.small-label{
+    display: block;
+    float: left;
+}
+
+.btn-custom{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--my-primary);
+    border: none;
+    color: var(--my-secondary);
+    font-size: 100% ;
+    padding: 3px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 100%;
+}
+.btn-custom:hover {
+    background-color: transparent;
+    color: var(--my-primary);
+    border: 1px solid var(--my-primary);
 }

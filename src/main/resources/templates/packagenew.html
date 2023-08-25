@@ -8,20 +8,104 @@
     <title>
         Adding Packages
     </title>
-<!--    <script>$(document).ready(function() {-->
-<!--        $('.js-example-basic-single').select2();-->
-<!--        $(".select").each(function() {-->
-<!--            $(this).siblings(".select2-container").css('border', '5px solid red');-->
-<!--        });-->
-<!--    });</script>-->
+    <script>$(document).ready(function() {
+        $('.js-example-basic-single').select2();
+        $(".select").each(function() {
+            $(this).siblings(".select2-container").css('border', '5px solid red');
+        });
+    });</script>
 </head>
 <body class = "home-body">
 <div class = "header-custom">
     Add A New Package to Database
 </div>
 <div class = "boxed-form">
-
-</div>
+    <form action = "#" class = "form_box">
+        <div class="input">
+            <input class="input-field" required type=number>
+            <label class = "input-label" > Package Number </label>
+        </div>
+        <div class = "input-label" style="top: 0rem;!important;"> Package Name </div>
+        <div class="input_drop">
+            <select id = setname class = "js-example-basic-single " >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+        </div>
+    <div class = "option">
+        <label class = "small-label"> ID: </label>
+        <input class ="input-field-small" required type=number>
+        <select class = "js-example-basic-single variety-select" >
+            <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+        </select>
+        <label class="variety-label">Variety</label>
+    </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <div class = "option">
+            <label class = "small-label"> ID: </label>
+            <input class ="input-field-small" required type=number>
+            <select class = "js-example-basic-single variety-select" >
+                <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
+            </select>
+            <label class="variety-label">Variety</label>
+        </div>
+        <button class = "btn-custom">Submit</button>
+        <a type="button" class = "btn-custom" style= "margin: -3px;margin-top: 1rem;box-sizing: border-box" th:href="@{/main}">Return to home</a>
+    </div>
 <!--<div class = "section">-->
 <!--    <form action = "#" th:action="@{/addcard}" method="POST" th:object="${UCIE}" class = "form_box">-->
 <!--        <div class="input">-->

@@ -9,8 +9,4 @@ public class TempController {
     @Autowired
     PackageDao PackageRep;
 
-    @GetMapping("/addPackage")
-    public String addPackage(){
-        return "packagenew";
-    }
 }
