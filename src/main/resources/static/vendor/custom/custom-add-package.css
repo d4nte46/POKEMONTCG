@@ -63,7 +63,7 @@ select2-container--default .select2-search--dropdown .select2-search__field {
 
 .boxed-form{
     width: 600px;
-    height: 735px;
+    height: 840px;
     border-radius: 25px;
     display: block;
     position: relative;
@@ -154,7 +154,7 @@ select2-container--default .select2-search--dropdown .select2-search__field {
     outline: none;
     border-bottom: 1px solid var(--my-primary);
     transition: border-bottom-color 0.5s ease;
-    width: 29%;
+    width: 7%;
     position: absolute;
     left: 8.4%;
 }
@@ -180,7 +180,6 @@ select2-container--default .select2-search--dropdown .select2-search__field {
     text-align: center;
     text-decoration: none;
     background-color: var(--my-primary);
-    border: none;
     color: var(--my-secondary);
     font-size: 100% ;
     padding: 3px;
