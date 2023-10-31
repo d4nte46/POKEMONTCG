@@ -7,10 +7,14 @@ import lombok.*;
 @Setter
 @Getter
 @ToString
+
 public class userPackageInputEntity {
 
     private String packageName;
     private String packageNo;
-    private Short setNo;
-    private String variety;
+    private userPackageCardInputEntity[] ListOfUPCIE ;
+
+    public userPackageInputEntity(userPackageCardInputEntity[] listOfUPCIE) {
+        ListOfUPCIE = listOfUPCIE;
+    }
 }

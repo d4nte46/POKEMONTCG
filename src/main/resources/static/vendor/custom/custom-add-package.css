@@ -193,3 +193,7 @@ select2-container--default .select2-search--dropdown .select2-search__field {
     color: var(--my-primary);
     border: 1px solid var(--my-primary);
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

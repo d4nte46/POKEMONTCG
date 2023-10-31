@@ -14,28 +14,49 @@
             $(this).siblings(".select2-container").css('border', '5px solid red');
         });
     });</script>
+    <script>
+        window.addEventListener("load",function(){
+            var redeemid = document.getElementById("id");
+
+            redeemid.addEventListener("keypress",(event)=>{
+                if(!/[A-Za-z0-9]/.test(event.key)){
+                    event.preventDefault();
+                }
+                if(redeemid.value.charAt(3)!='-' && redeemid.value.length >3){
+                    redeemid.value = redeemid.value.slice(0,3) + "-" + redeemid.value.slice(3);
+                }
+                if(redeemid.value.charAt(8)!='-' && redeemid.value.length >8){
+                    redeemid.value = redeemid.value.slice(0,8) + "-" + redeemid.value.slice(8);
+                }
+                if(redeemid.value.charAt(12)!='-' && redeemid.value.length >12){
+                    redeemid.value = redeemid.value.slice(0,12) + "-" + redeemid.value.slice(12);
+                }
+            });
+        });
+    </script>
 </head>
 <body class = "home-body">
 <div class = "header-custom">
     Add A New Package to Database
 </div>
 <div class = "boxed-form">
-    <form action = "#" class = "form_box" th:object="${LoUPIE}">
+    <form action = "#" class = "form_box" th:object="${UPIE}" th:action="@{/addPackage}" method="POST">
         <div class="input">
-            <input class="input-field" required type=number>
+            <input class="input-field" required type=text id="id" maxlength="16" oninput="this.value = this.value.toUpperCase()" th:field="*{packageNo}">
             <label class = "input-label" > Package Number </label>
         </div>
-        <div class = "input-label" style="top: 0;!important;"> Package Name </div>
+        <div class = "input-label" style="top: 0;!important;" > Package Name </div>
         <div class="input_drop">
-            <select id = setname class = "js-example-basic-single " >
+            <select id = setname class = "js-example-basic-single " th:field="*{packageName}" >
                 <option th:each="name : ${setnames}" th:text="${name}" th:value="${name}" ></option>
             </select>
         </div>
-        <div class = "option" th:each="UPIE, loop : ${LoUPIE}">
+
+        <div class = "option" th:each="item, i : *{listOfUPCIE}" >
             <label class = "small-label"> ID: </label>
-            <input class ="input-field-small" required type=number>
-            <select class = "js-example-basic-single variety-select" >
-                <option th:each="name : ${variety}" th:text="${name}" th:value="${name}" ></option>
+            <input class ="input-field-small" required type=number th:field="*{listOfUPCIE[__${i.index}__].setNumber}">
+            <select class = "js-example-basic-single variety-select"  th:field="*{listOfUPCIE[__${i.index}__].variety}" >
+                <option th:each="name : ${listofvariety}" th:text="${name}" th:value="${name}" ></option>
             </select>
             <label class="variety-label">Variety</label>
         </div>
