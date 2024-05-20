@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Package Verification
+    </title>
+    <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet"
+          th:href="@{/vendor/custom/custom-add-success_col.css}">
+</head>
+<body class = "home-body">
+</div>
+<div class = "section">
+    <div th:each="item, i : *{LINKS} ">
+        <img th:src = "${item}" height="69" width="69">
+    </div>
+    <div class = "the-question"> Are these the cards?</div>
+    <br>
+    <div class="btn-group my-1 " role="group">
+        <a type="button"  class="btn-custom mx-1" th:href="@{/addpackageconfirm}">Yes</a>
+        <a type="button"  class="btn-custom mx-1" th:href="@{/addpackage}">No</a>
+    </div>
+</div>
+</body>

@@ -1,0 +1,208 @@
+:root{
+    --my-primary: #274168;
+    --my-black: #1C1917;
+    --my-secondary: #FFD541;
+}
+
+/*for button */
+.btn-custom2 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1C1917;
+    border: none;
+    color: #E85B4D;
+    font-size: 100% ;
+    padding: 3px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+.btn-custom2:hover {
+    background-color: transparent;
+    color: #1C1917;
+    border: 1px solid #1C1917;
+}
+.btn-custom {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1C1917;
+    border: none;
+    color: #E85B4D;
+    font-size: 100% ;
+    padding: 3px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 100%;
+}
+.btn-custom:hover {
+    background-color: transparent;
+    color: #1C1917;
+    border: 1px solid #1C1917;
+}
+
+/*for header*/
+.header-custom{
+    background-color: transparent;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #1C1917;
+    font-size: 370%;
+    padding-bottom: 1.5rem;
+}
+
+
+.home-body{
+    font-family: 'Courier New', monospace;
+    background-color: #E85B4D ;
+    text-align: center;
+    background-image: url("/vendor/oricorio.png");
+    background-position: right bottom;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size : 37vw ;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin:auto;
+    margin-top: 17%;
+}
+
+
+
+.form_box{
+    position: relative;
+    height: 69vh;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border: 0;
+    padding-block: 1.5rem;
+}
+
+.input +.input {
+     margin-top: 1.5rem;
+ }
+
+.input-label{
+    color: #FFFFFF;
+    position: absolute;
+    top: 1.5rem;
+    transition: 0.5s ease;
+}
+
+.input-field{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: 0.25rem 0;
+    outline : none;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom-color 0.5s ease;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-field:focus + .input-label, .input-field:valid + .input-label{
+    color: #FFFFFF;
+    transform: translateY(-1.5rem);
+    outline: none;
+}
+
+.input-field:focus{
+    border-bottom: 1px solid #1C1917;
+}
+
+.input-check{
+    padding-top: 1.5rem;
+    border: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.js-example-basic-single-cst_drop{
+    background: transparent;
+}
+
+.input {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border: 0;
+    padding-block: 1.5rem;
+}
+
+/*select jquery modifications*/
+.select2-selection{
+    background-color:transparent !important;
+    color:#FFFFFF !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: #FFFFFF !important;
+}
+.select2-container--default .select2-results__option[aria-selected=true]{
+    background-color: #E85B4D;
+}
+.select2-container--default .select2-results>.select2-results__options{
+    background-color: #E85B4D;
+}
+element.style {
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1C1917;
+}
+select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #1C1917 !important;
+    background-color: #E85B4D !important;
+}
+.select2-search--dropdown{
+    background-color: #E85B4D;
+}
+
+.input_drop {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border: 0;
+    padding-bottom: 2vh;
+}
+.input-box{
+    color : #FFFFFF;
+    text-transform: uppercase;
+    text-align: justify;
+    padding-block: 0px ;
+    align-items: center;
+    justify-content: center;
+}
+.input-box:after{
+    content: "";
+    display: inline-block;
+    width: 100%
+}
+
+.footer2right {
+    position: fixed;
+    right:0;
+    bottom: 0;
+    color: #1C1917;
+    font-size: max(12px,1.5vw);
+}

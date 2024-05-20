@@ -62,13 +62,15 @@ public class PackageAddController {
 
     @PostMapping("/addPackage")
     public String packageConfirm(@ModelAttribute("UPIE") userPackageInputEntity UPIE, RedirectAttributes redirectAttributes){
-        System.out.println(UPIE.getPackageNo() + " \n" + UPIE.getPackageName() + "\n" );
-        for (userPackageCardInputEntity up : UPIE.getListOfUPCIE() ){
-            System.out.println(up.toString());
-        }
         redirectAttributes.addFlashAttribute("UPIE",UPIE);
-        return "redirect:/addPackage";
-
+        return "redirect:/packageaddsuccess";
+//
+//        System.out.println(UPIE.getPackageNo() + " \n" + UPIE.getPackageName() + "\n" );
+//        for (userPackageCardInputEntity up : UPIE.getListOfUPCIE() ){
+//            System.out.println(up.toString());
+//        }
+//        redirectAttributes.addFlashAttribute("UPIE",UPIE);
+//        return "redirect:/addPackage";
     }
 
 }

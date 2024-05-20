@@ -13,4 +13,6 @@ public interface PackageDao extends JpaRepository<CardsetEntity,Integer> {
     @Query("SELECT cd FROM CardsetEntity cd WHERE cd.cardset = :name")
     CardsetEntity findByName(String name);
 
+    @Query("SELECT cd FROM CardsetEntity cd WHERE cd.id = :id")
+    CardsetEntity findById(String id);
 }
